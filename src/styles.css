@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: #fff;
+  font: 11px/1.35 Arial, Helvetica, sans-serif;
+  color: #444;
+  min-height: 100vh;
+  height: auto;
+}
+
+header {
+  flex: 0 0 154px;
+  max-height: 154px;
+  display: flex;
+  background: #404040;
+}
+
+main {
+  flex: 1 1 1000px;
+  position: relative;
+  display: flex;
+}
+
+footer {
+  flex: 0 0 307px;
+  max-height: 307px;
+  background: #404040;
+  display: flex;
+}
+
+.main-opacity::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+
+.body__content {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
