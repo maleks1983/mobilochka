@@ -1,0 +1,11 @@
+<ul>
+  <li *ngFor="let category of categorys">
+    <a href="{{category.link}}">
+      <p>{{category.name}}</p>
+    </a>
+    <div class="header__nav__menu__list-items">
+      <app-nav-menu-items [items]="category.listItems">
+      </app-nav-menu-items>
+    </div>
+  </li>
+</ul>

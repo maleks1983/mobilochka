@@ -1,0 +1,33 @@
+:host {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  flex: 1 1 100%;
+}
+
+.header__line-about {
+  flex: 1 0 0;
+  background-color: #404040;
+  display: flex;
+  justify-content: center;
+  max-height: 25px;
+}
+
+.header__line-logo {
+  flex: 3 0 0;
+  max-height: 79px;
+  background-color: #323232;
+  display: flex;
+  justify-content: center;
+}
+
+.header__line-nav {
+  flex: 2 0 0;
+  background-color: #404040;
+  display: flex;
+  justify-content: center;
+  max-height: 50px;
+}
+
+

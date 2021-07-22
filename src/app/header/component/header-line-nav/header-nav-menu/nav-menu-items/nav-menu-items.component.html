@@ -1,0 +1,15 @@
+<ul>
+  <li *ngFor="let item of items">
+    <a [href]="item.link">
+      <p>{{item.name}}</p>
+    </a>
+  </li>
+  <li>
+    <a href="#" title="Всі товари">
+      <p style="text-decoration: underline; margin-top: 3px" > Всі товари
+        <span class="title--arrow"> → </span>
+      </p>
+    </a>
+  </li>
+</ul>
+

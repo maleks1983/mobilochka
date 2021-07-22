@@ -1,0 +1,17 @@
+<ul>
+  <li *ngFor="let group of groups" appNavMenuHover>
+    <a href="{{group.link}}">
+      <div>
+        <img [src]="src" alt="icon">
+      </div>
+      <p class=".active__link">{{group.name}}</p>
+    </a>
+    <div class="header__nav__menu__list-category">
+      <app-nav-menu-category [categorys]="group.listComponent"></app-nav-menu-category>
+      <div class="promo__group__img">
+        <img src="/assets/RN10-series_promoblok.png" alt="">
+      </div>
+    </div>
+
+  </li>
+</ul>
