@@ -2,12 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Mobilochka</title>
+  <title>FinalProject</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="favicon.ico" rel="icon" type="image/x-icon">
 </head>
 <body>
-  <app-root></app-root>
+<header class="mobilochka__header">
+  <div class="header__line-about ">
+    <div class="body__content">
+      <div class="mobilochka__header-geolocation">
+
+      </div>
+      <div class="mobilochka__header-theme">
+
+      </div>
+      <div class="mobilochka__header-links">
+
+      </div>
+      <div class="mobilochka__header-language">
+
+      </div>
+    </div>
+  </div>
+  <div class="header__line-logo">
+    <div class="body__content">
+
+    </div>
+  </div>
+  <div class="header__line-nav">
+    <div class="body__content">
+      <nav class="header__nav__menu">
+        <app-header-nav-menu></app-header-nav-menu>
+        <app-header-nav-list></app-header-nav-list>
+      </nav>
+    </div>
+  </div>
+</header>
+<main class="mobilochka__main">
+  <div class="mobilochka__main-content body__content">
+    <app-root></app-root>
+  </div>
+
+</main>
+
+<footer class="mobilochka__footer">
+  <div class="mobilochka__footer-content body__content">
+
+  </div>
+</footer>
 </body>
 </html>
