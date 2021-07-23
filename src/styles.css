@@ -1,14 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-html, body {
+body {
   display: flex;
   flex-direction: column;
   margin: 0;
   background: #fff;
-  font: 11px/1.35 Arial, Helvetica, sans-serif;
-  color: #444;
   min-height: 100vh;
   height: auto;
 }
+
+html, body, :host ::ng-deep {
+  font: 11px/1.35 Arial, Helvetica, sans-serif;
+  color: #444;
+}
+
+
 
 header {
   flex: 0 0 154px;
@@ -18,9 +23,10 @@ header {
 }
 
 main {
-  flex: 1 1 1000px;
+  flex: 0 1 1000px;
   position: relative;
   display: flex;
+  justify-content: center;
 }
 
 footer {
@@ -43,9 +49,7 @@ footer {
 
 
 .body__content {
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
+  flex: 0 1 1600px;
 }
 
 

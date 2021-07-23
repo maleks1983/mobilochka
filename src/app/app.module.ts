@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
+import {CaruselModule} from "./main/carusel/carusel.module";
 
 
 
@@ -11,9 +12,10 @@ import {AppComponent} from './app.component';
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+    imports: [
+        BrowserModule,
+        CaruselModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

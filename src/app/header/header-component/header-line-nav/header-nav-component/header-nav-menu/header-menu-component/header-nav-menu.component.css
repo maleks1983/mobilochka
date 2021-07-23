@@ -1,8 +1,8 @@
 .header__nav__menu {
   position: relative;
   width: 272px;
-  height: 48px;
-  background-color: #ffc421;
+  height: 100%;
+  background-color: #EE771C;
 
 }
 
@@ -17,7 +17,6 @@
   justify-content: left;
   align-items: center;
   height: 100%;
-  color: white;
   padding-left: 10%;
 }
 
@@ -46,8 +45,6 @@
   z-index: 2;
   top: 100%;
   left: 0;
-
-
 }
 
 

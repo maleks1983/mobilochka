@@ -1,0 +1,7 @@
+<div *ngFor="let image of images">
+  <a [href]=image.href>
+    <picture>
+      <img [src]=image.src [alt]=image.alt>
+    </picture>
+  </a>
+</div>

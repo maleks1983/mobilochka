@@ -5,7 +5,17 @@
   box-sizing: border-box;
   flex: 1 1 100%;
 }
+:host ::ng-deep ul {
+  list-style: none;
+  color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
 
+:host ::ng-deep a,
+:host ::ng-deep div{
+  color: #f2f2f2;
+}
 .header__line-about {
   flex: 1 0 0;
   background-color: #404040;

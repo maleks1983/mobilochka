@@ -1,0 +1,43 @@
+:host {
+  width: 100%;
+  height: 100%;
+  max-width: 183px;
+}
+
+svg {
+  flex: 1 1 0;
+  width: 20px;
+  height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.user-block-authentication {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+span{
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #f2f2f2;
+  width: 1px;
+  height: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+button {
+box-sizing: content-box;
+  height: 100%;
+  border: none;
+  z-index: 2;
+  display: inline-block;
+  background: none;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 14px;
+
+  color: #f2f2f2;
+}

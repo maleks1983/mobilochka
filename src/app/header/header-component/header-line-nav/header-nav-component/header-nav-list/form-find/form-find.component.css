@@ -1,0 +1,51 @@
+:host {
+  width: 100%;
+  max-width: 572px;
+  box-sizing: border-box;
+  margin-right: auto;
+
+}
+
+ng-form {
+  position: relative;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  width: auto;
+  padding: 0 2px 0 16px;
+}
+
+label {
+  flex: 1 1 0;
+}
+
+input {
+  width: calc(100% - 28px);
+  line-height: 28px;
+  border: none;
+  outline: none;
+
+
+}
+
+button {
+  right: 0;
+  top: 0;
+  position: absolute;
+  height: 28px;
+  flex-basis: 28px;
+  border: none;
+  border-radius: 50%;
+  cursor: default;
+  background: transparent;
+  font-size: 0;
+  z-index: 2;
+}
+button:active{
+
+}
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}

@@ -1,4 +1,4 @@
-import {CategoryItems, GroupItems, Item} from "../component/header-line-nav/header-nav-menu/header-menu";
+import {CategoryItems, GroupItems, Item} from "../header-component/header-line-nav/header-nav-component/header-nav-menu/header-menu-component/header-menu";
 
 
 export class DataService {

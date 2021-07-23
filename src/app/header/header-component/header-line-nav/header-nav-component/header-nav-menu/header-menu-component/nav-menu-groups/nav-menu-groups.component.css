@@ -77,6 +77,9 @@ li:hover .header__nav__menu__list-category {
   grid-template-columns: 6fr max-content;
   grid-template-rows: 100%;
 }
+li:hover p::before{
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 6'%3E%3Cpath d='M5.5 6L11 .7l-.73-.7L5.5 4.6.73 0 0 .7z' fill='black'/%3E%3C/svg%3E")
+}
 
 
 .promo__group__img {
@@ -86,7 +89,7 @@ li:hover .header__nav__menu__list-category {
   margin-bottom: auto;
 }
 
-li:hover p {
+li:hover p{
   color: black;
   font-weight: bold;
 }

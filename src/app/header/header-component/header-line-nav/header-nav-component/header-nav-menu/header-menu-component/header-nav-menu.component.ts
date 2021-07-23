@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import { GroupItems} from "./header-menu";
-import {DataService} from "../../../data/data-service";
+import {DataService} from "../../../../../data/data-service";
 
 
 @Component({

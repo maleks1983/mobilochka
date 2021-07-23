@@ -4,7 +4,8 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { environment } from './environments/environment';
 import {AppModule} from "./app/app.module";
-import {HeaderModule} from "./app/header/header-modules/header.module";
+import {HeaderModule} from "./app/header/header.module";
+import {FooterModule} from "./app/footer/footer.module";
 
 
 
@@ -19,3 +20,5 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
 
+platformBrowserDynamic().bootstrapModule(FooterModule)
+  .catch(err => console.error(err));
