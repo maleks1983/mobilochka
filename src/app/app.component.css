@@ -1,0 +1,26 @@
+header{
+  position: relative;
+  width: 100%;
+  height: 108px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 25%);
+}
+header:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 33.3%;
+  background-color: #404040;
+  content: "";
+}
+
+header:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 66.7%;
+  background-color: #303030;
+  content: "";
+}
+

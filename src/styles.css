@@ -4,7 +4,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body{
   width: 100vw;
   height: 100vh;
-  -webkit-tap-highlight-color: transparent;
+  background-color: #fff;
 }
